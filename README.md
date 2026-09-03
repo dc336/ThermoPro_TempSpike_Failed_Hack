@@ -76,6 +76,12 @@ Silicon Labs EFR32BG22 C224F512IM40
 
 It is a Cortex M33 based Silicon Labs Series 2 SoC with considerable security features implemented.
 
+
+**Update:** I neglected to mention the board has RX/TX pins labeled, but probed these with a logic analyzer, restarted it, pulled things to ground, turned on OTA mode, etc. The state of these pins did not change
+
+<img width="218" height="285" alt="image" src="https://github.com/user-attachments/assets/f24a9444-5dbf-4ec6-89fe-6723bf1ed311" />
+
+
 ---
 
 ### The probe
@@ -128,6 +134,7 @@ For the QFN40 package:
 | `3v3` | `VDD` | VDD |
 | `GND` | `GND` | GND |
 | `RESETn` | — | 11 |
+
 
 <img width="674" height="605" alt="image" src="https://github.com/user-attachments/assets/defc38e6-e241-4039-bfa8-c3bf2f4208ae" />
 
